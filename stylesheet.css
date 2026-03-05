@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    background: white;
+    color:black;
+
+
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 10px;
+}
