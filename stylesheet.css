@@ -198,11 +198,19 @@ nav{
     justify-content: flex-start;
     margin: 40px 60px 40px 20px;
 }
+.book h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
 #man{
     display: flex;
-    justify-content: flex-start;
+    
     padding: 10px;
-    color:  rgb(10, 10, 59);
+    background-color:  rgb(10, 10, 59);
+    color: white;
+    border-radius: 15px;
+    
+    margin: 10px 20px 5px 5px;
 }
 .main4{
     margin: 20px;
