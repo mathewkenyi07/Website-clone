@@ -44,4 +44,12 @@ nav{
     background-repeat: no repeat;
     background-size: cover;
 }
+.data{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap:10px;
+}
+
+
 
