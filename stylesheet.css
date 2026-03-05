@@ -78,5 +78,34 @@ nav{
     border-radius: 15px;
  }
 
+ .center{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(10, 10, 59);
+    color:white;
+    margin:20px ;
+    border-radius: 15px;
+ }
+
+ .accommodation{
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    background-color: whitesmoke;
+    width:300px;
+    min-height: 100px;
+    border-radius: 15px;
+    margin-top: 15px;
+    color: black;
+
+ }
+
+ .queries{
+    margin:20px;
+ }
+
+
+
 
 
