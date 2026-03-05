@@ -51,7 +51,7 @@ nav{
     padding: 20px;
     justify-content: center;
     gap:10px;
-    background-color:rgb(225, 223, 223);
+    background-color:white;
     height: min-content;
     border-radius: 15px;
     width: min-content;
@@ -101,11 +101,41 @@ nav{
 
  }
 
- .queries{
+ .queries,.center2{
     margin:20px;
  }
+ 
 
+.containers{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 20px;
+    
+}
 
+.con1,.con2,.con3{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    
+    
+
+}
+.containers img{
+    width: 250px;
+    height: 250px;
+}
+
+#c1,#c2,#c3{
+    background-color: green;
+    color:white;
+    width: min-content;
+}
 
 
 
