@@ -141,7 +141,7 @@ nav{
     width: min-content;
 }
 
-..con1,.con2,.con3 h4{
+.con1,.con2,.con3 h4{
     margin-top: 20px 0 20px 0;
 }
 
@@ -173,6 +173,36 @@ nav{
 .flexicons img{
     width: 300px;
     height: 300px;
+}
+.main3{
+    background-image: url(house.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 990px;
+    height: 100vh;
+    margin: 20px;
+    border-radius: 20px;
+    justify-content: flex-start;
+    display: flex;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: flex-start;
+    margin: 40px 60px 40px 20px;
+}
+.man{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    color:  rgb(10, 10, 59);
 }
 .main4{
     margin: 20px;
