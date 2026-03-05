@@ -198,7 +198,7 @@ nav{
     justify-content: flex-start;
     margin: 40px 60px 40px 20px;
 }
-.man{
+#man{
     display: flex;
     justify-content: flex-start;
     padding: 10px;
