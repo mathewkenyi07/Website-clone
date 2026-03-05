@@ -20,3 +20,28 @@ nav{
     align-items: center;
     gap: 10px;
 }
+.logo{
+    color:blue;
+    font-size: 30px;
+}
+
+#download{
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    color: blue;
+}
+
+#download:hover{
+    background-color: rgb(211, 211, 238);
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    min-height:60vh;
+    background-image:url(home.jpg);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+}
+
