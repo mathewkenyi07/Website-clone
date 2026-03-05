@@ -37,7 +37,9 @@ nav{
 }
 .hero{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     min-height:60vh;
     background-image:url(home.jpg);
     background-position: center;
@@ -46,10 +48,35 @@ nav{
 }
 .data{
     display: flex;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
     gap:10px;
+    background-color:rgb(225, 223, 223);
+    height: min-content;
+    border-radius: 15px;
+    width: min-content;
+    align-items: center;
+
+  
 }
+.data input{
+    height: 40px;
+    border-radius: 15px;
+    border: 0.5px solid black;
+    
+}
+
+.hero2{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+ .button{
+    padding: 10px;
+    background-color: rgb(10, 10, 59);
+    color: white;
+    border-radius: 15px;
+ }
 
 
 
