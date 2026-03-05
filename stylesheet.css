@@ -179,11 +179,16 @@ nav{
 .info {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 2rem;
+    margin: 20px;
     
 
 }
-.info1
+.info1 ul,.info2 ul, .info3 ul{
+    list-style: none;
+    color: blue;
+    margin: 20px 0 20px 0;
+}
 
 footer{
     display: flex;
